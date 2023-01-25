@@ -2,8 +2,8 @@ import sys
 import time
 import threading
 from pypylon import pylon
-from camera import Camera, CAMERA_SETTINGS
-from logger import Logger
+from .camera import Camera, CAMERA_SETTINGS
+from .logger import Logger
 
 
 class Basler(Camera):

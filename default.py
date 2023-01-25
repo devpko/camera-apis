@@ -1,5 +1,6 @@
 import cv2
-from camera import Camera, CAMERA_SETTINGS
+from .camera import Camera, CAMERA_SETTINGS
+from .logger import Logger
 
 
 class Default(Camera):
