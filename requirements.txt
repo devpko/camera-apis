@@ -1,1 +1,3 @@
 wheel
+pypylon
+opencv-python
