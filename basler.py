@@ -16,7 +16,7 @@ class Basler(Camera):
                 cam = pylon.TlFactory.GetInstance().CreateFirstDevice(info)
             else:
                 cam = pylon.TlFactory.GetInstance().CreateFirstDevice()
-            self.camera = pylon.IntanceCamera(cam)
+            self.camera = pylon.InstantCamera(cam)
             self.converter = pylon.ImageFormatConverter()
             self.converter.OutputBitAlignment = pylon.OutputBitAlignment_MsbAligned
 
